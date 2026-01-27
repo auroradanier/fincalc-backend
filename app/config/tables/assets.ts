@@ -101,35 +101,8 @@ const config: TableConfig = {
       type: "text"
     },
     { 
-      key: "target", 
-      title: "Target",
-      type: "text"
-    },
-    { 
-      key: "description", 
-      title: "Description",
-      type: "text"
-    },
-    { 
-      key: "aiGenerated", 
-      title: "AI Generated",
-      type: "boolean"
-    },
-    { 
-      key: "isPublic", 
-      title: "Public",
-      type: "boolean"
-    },
-    { 
       key: "createdAt", 
       title: "Created At",
-      type: "date",
-      format: (value: any) => value ? new Date(value).toLocaleString() : 'N/A',
-      sortable: true
-    },
-    { 
-      key: "updatedAt", 
-      title: "Updated At",
       type: "date",
       format: (value: any) => value ? new Date(value).toLocaleString() : 'N/A',
       sortable: true
@@ -159,24 +132,6 @@ const config: TableConfig = {
       options: [
         { value: "upload", label: "Upload" },
         { value: "generated", label: "Generated" }
-      ]
-    },
-    {
-      key: "aiGenerated",
-      title: "AI Generated",
-      type: "select",
-      options: [
-        { value: true, label: "Yes" },
-        { value: false, label: "No" }
-      ]
-    },
-    {
-      key: "isPublic",
-      title: "Public",
-      type: "select",
-      options: [
-        { value: true, label: "Yes" },
-        { value: false, label: "No" }
       ]
     }
   ],
@@ -217,20 +172,15 @@ const config: TableConfig = {
     { key: "userId", label: "User", type: "relation", relation: { table: "user", displayField: "email", valueField: "id" }, editComponent: "select", readOnly: true },
     { key: "fileName", label: "Filename", type: "text", readOnly: true },
     { key: "originalName", label: "Original Name", type: "text", readOnly: true },
-    { key: "description", label: "Description", type: "textarea" },
     { key: "mimeType", label: "MIME Type", type: "text", readOnly: true },
     { key: "fileSize", label: "File Size (bytes)", type: "number", readOnly: true },
     { key: "width", label: "Width", type: "number", readOnly: true },
     { key: "height", label: "Height", type: "number", readOnly: true },
     { key: "assetType", label: "Asset Type", type: "text" },
     { key: "source", label: "Source", type: "text" },
-    { key: "target", label: "Target", type: "text" },
     { key: "hash", label: "Hash", type: "text", readOnly: true },
     { key: "tags", label: "Tags (JSON)", type: "textarea" },
-    { key: "prompt", label: "AI Prompt", type: "textarea" },
-    { key: "aiGenerated", label: "AI Generated", type: "boolean" },
-    { key: "metadata", label: "Metadata (JSON)", type: "textarea" },
-    { key: "isPublic", label: "Public", type: "boolean" }
+    { key: "metadata", label: "Metadata (JSON)", type: "textarea" }
   ]
 }
 

@@ -1,5 +1,4 @@
 import { ref, readonly } from 'vue'
-import { getMCPClient } from '~~/shared/utils/mcpClient'
 
 interface ChatMessage {
   id: string

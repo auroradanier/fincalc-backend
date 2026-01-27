@@ -66,23 +66,7 @@ const config: TableConfig = {
       title: "Banned",
       type: "boolean",
       sortable: true
-    },
-    {
-      key: "currentPlanId",
-      title: "Current Plan",
-      type: "relation",
-      relation: {
-        table: "pricingPlans",
-        displayField: "name",
-        valueField: "id"
-      },
-      sortable: true,
-      format: (value: any, item: any, relationData: any) => {
-        if (!value || !relationData) return 'N/A';
-        const plan = relationData.pricingPlans?.[value];
-        return plan ? plan.name : 'N/A';
-      }
-    },
+    }
   ],
   filters: [
     {
@@ -141,8 +125,6 @@ const config: TableConfig = {
     { key: "banned", label: "Banned", type: "boolean" },
     { key: "banReason", label: "Ban Reason", type: "text" },
     { key: "banExpires", label: "Ban Expires", type: "datetime" },
-    { key: "lang", label: "Language", type: "text" },
-    { key: "currentPlanId", label: "Current Plan ID", type: "number" },
     { key: "createdAt", label: "Created At", type: "datetime", readOnly: true },
     { key: "updatedAt", label: "Updated At", type: "datetime", readOnly: true }
   ],
