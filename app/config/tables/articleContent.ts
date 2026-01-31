@@ -52,6 +52,20 @@ const config: TableConfig = {
         }
         return value;
       }
+    },
+    {
+      key: "createdAt",
+      title: "Created At",
+      type: "date",
+      format: (value: any) => value ? new Date(value).toLocaleString() : 'N/A',
+      sortable: true
+    },
+    {
+      key: "updatedAt",
+      title: "Updated At",
+      type: "date",
+      format: (value: any) => value ? new Date(value).toLocaleString() : 'N/A',
+      sortable: true
     }
   ],
   filters: [
@@ -85,7 +99,9 @@ const config: TableConfig = {
     { key: "title", label: "Title", type: "text" },
     { key: "description", label: "Description", type: "textarea", rows: 3 },
     { key: "content", label: "Content (Markdown)", type: "textarea", rows: 15 },
-    { key: "metadata", label: "Metadata (JSON)", type: "textarea", rows: 5 }
+    { key: "metadata", label: "Metadata (JSON)", type: "textarea", rows: 5 },
+    { key: "createdAt", label: "Created At", type: "datetime", readOnly: true },
+    { key: "updatedAt", label: "Updated At", type: "datetime", readOnly: true }
   ]
 }
 

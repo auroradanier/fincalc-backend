@@ -8,6 +8,13 @@
       "when": 1769833669802,
       "tag": "0000_organic_raza",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1769837679922,
+      "tag": "0001_easy_caretaker",
+      "breakpoints": true
     }
   ]
 }

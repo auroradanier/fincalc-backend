@@ -132,9 +132,12 @@ export const articleContent = pgTable('article_content', {
   description: text('description'), // Localized description
   content: text('content').notNull(), // Markdown content
   metadata: text('metadata'), // JSON for all metadata: SEO, Schema.org, og tags, etc.
+  createdAt: timestamp('created_at').defaultNow(),
+  updatedAt: timestamp('updated_at').defaultNow(),
 }, (table) => [
   index('article_content_article_id_idx').on(table.articleId), // For finding content by article
   uniqueIndex('article_content_article_locale_unique').on(table.articleId, table.locale), // Ensure one per language
+  index('article_content_created_at_idx').on(table.createdAt), // For sorting by date
 ])
 
 // Unified content moderation history/log (for both articles and comments)
