@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Quick Tips for Calculating Profit Percentages and Markups with Your Calculator",
+    "slug": "quick-tips-for-calculating-profit-percentages-and-markups-with-your-calculator",
+    "description": "Master profit percentage calculations with simple tips for using the percent (%) key on financial calculator. Learn how to quickly calculate markups, discounts, and profit margins with addition and subtraction.",
+    "image": "/images/post_percent_calculation.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["profit calculations", "percent key", "calculator tips", "markup", "discount", "financial calculator"]
+  },
+  {
+    "title": "Understanding Cash Flow Ratios for Financial Analysis",
+    "slug": "understanding-cash-flow-ratios-for-financial-analysis",
+    "description": "Master essential cash flow ratios including FCFF, FCFE, Cash-to-Income, Cash Flow to Revenue, Cash Return on Assets, Cash Return on Equity, and Cash Flow per Share. Learn how to calculate and interpret these critical financial metrics for investment analysis.",
+    "image": "/images/post_cashflowratio.jpg",
+    "datePublished": "2025-07-28",
+    "tags": ["cfa", "frm", "cashflow", "financial ratios", "financial analysis"]
+  },
+  {
+    "title": "How to Calculate Days Between Dates for Financial Applications",
+    "slug": "how-to-calculate-days-between-dates-for-financial-applications",
+    "description": "The Texas Instruments BAII Plus calculator's date mode allows you to calculate days between dates, determine future or past dates, and toggle between Actual (365-day) and 360-day calculation methods. Learn how to use DT1, DT2, DBD, and DAY functions effectively.",
+    "image": "/images/post_date_mode.jpg",
+    "datePublished": "2025-06-06",
+    "tags": ["date calculations", "days between dates", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "Dedicated TVM Calculator is Here",
+    "slug": "dedicated-tvm-calculator-is-here",
+    "description": "This dedicated Time Value of Money (TVM) calculator designed for simplicity. Easily calculate PV, FV, PMT, N, or Interest and visualize cash flows with our new timeline and payment schedule features.",
+    "image": "/images/post_tvm_calculator.jpg",
+    "datePublished": "2025-04-23",
+    "tags": ["tvm", "financial calculator", "time value of money", "new feature", "announcement", "finance tools"]
+  },
+  {
+    "title": "How to Calculate Car Loan Using Financial Calculator",
+    "slug": "how-to-calculate-car-loan-using-financial-calculator",
+    "description": "Learn use the Time Value of Money (TVM) functions to calulate car loans, calculate monthly payments, compare financing options, and make informed auto purchasing decisions with car loan calculator.",
+    "image": "/images/post_car_loan.jpg",
+    "datePublished": "2025-04-16",
+    "tags": ["tvm", "financial calculator", "car loan", "auto financing", "car loan calculator"]
+  },
+  {
+    "title": "How to Calculate Time Value of Money (TVM) with Financial Calculator",
+    "slug": "how-to-calculate-time-value-of-money-with-financial-calculator",
+    "description": "Time Value of Money (TVM) is a fundamental financial principle. Learn about the five key variables—Present Value, Future Value, Interest Rate, Number of Periods, and Payment—through practical examples and step-by-step instructions.",
+    "image": "/images/post_tvm.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["tvm", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "Converting Between Nominal and Effective Interest Rates Using ICONV Mode",
+    "slug": "how-to-convert-between-nominal-effective-interest-rate-using-iconv-mode",
+    "description": "Learn how to use the Texas Instruments BAII Plus calculator's interest conversion mode to convert between nominal rates (NOM), effective rates (EFF), and compounding periods per year (C/Y).",
+    "image": "/images/post_iconv.jpg",
+    "datePublished": "2024-11-16",
+    "tags": ["iconv", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "Using Amortization Mode with BAII Plus Calculator",
+    "slug": "how-to-use-amortization-mode",
+    "description": "Learn how to use the amortization mode of the Texas Instruments BAII Plus calculator for loan calculations. Calculate amortization schedules, interest payments, and remaining balances with simple steps.",
+    "image": "/images/post_amortization.jpg",
+    "datePublished": "2024-11-24",
+    "tags": ["tvm", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "Using Statistics Mode with BAII Plus Calculator",
+    "slug": "how-to-use-stats-mode-with-baii-plus-calculator",
+    "description": "Learn how to perform statistical calculations using the Texas Instruments BAII Plus calculator. Master data entry, regression analysis, and statistical measures with step-by-step instructions and practical examples.",
+    "image": "/images/post_stats.jpg",
+    "datePublished": "2025-01-10",
+    "tags": ["statistics", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "Mastering Cash Flow Calculations with BAII Plus Financial Calculator",
+    "slug": "mastering-cash-flow-calculations-with-baii-plus-financial-calculator",
+    "description": "Learn the powerful cash flow functions of the Texas Instruments BAII Plus calculator. Calculate NPV, IRR, and MIRR for your investment decisions.",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["cash flow", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "Understanding CHAIN vs AOS Calculation Methods on Financial Calculator",
+    "slug": "understanding-chain-vs-aos-calculation-methods",
+    "description": "Learn the differences between AOS (Algebraic Operating System) and CHAIN calculation methods on the Texas Instruments BAII Plus calculator. This guide covers how to set up, use, and choose the right calculation method for your financial calculations.",
+    "image": "/images/post_calculator_methods.jpg",
+    "datePublished": "2025-04-12",
+    "tags": ["calculator methods", "financial calculator", "aos", "chain", "cfa", "frm"]
+  },
+  {
+    "title": "How to Use AI Explanation Feature for Financial Calculations",
+    "slug": "how-to-use-ai-explanation-for-financial-calculations",
+    "description": "Learn how to use the AI explanation feature to understand your financial calculations in detail. This guide demonstrates how the AI can help explain calculations like compounding interest, making complex financial concepts easier to grasp.",
+    "image": "/images/post_ai_explanation.jpg",
+    "datePublished": "2025-02-25",
+    "tags": ["ai", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "Product Updates",
+    "slug": "product-updates",
+    "description": "Stay up-to-date with the latest features and improvements to our financial calculator.",
+    "image": "/images/product_updates.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["updates", "new feature", "announcement"]
+  }
+]

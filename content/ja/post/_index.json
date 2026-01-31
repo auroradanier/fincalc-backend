@@ -1,0 +1,106 @@
+[
+  {
+    "title": "電卓を使って利益率とマークアップを素早く計算する方法",
+    "slug": "quick-tips-for-calculating-profit-percentages-and-markups-with-your-calculator",
+    "description": "金融電卓のパーセント（%）キーを使った簡単なコツで利益率計算をマスターしましょう。加算と減算を使ってマークアップ、割引、利益率を素早く計算する方法を学びます。",
+    "image": "/images/post_percent_calculation.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["利益計算", "パーセントキー", "電卓のコツ", "マークアップ", "割引", "金融電卓"]
+  },
+  {
+    "title": "財務分析のためのキャッシュフロー比率の理解",
+    "slug": "understanding-cash-flow-ratios-for-financial-analysis",
+    "description": "FCFF、FCFE、現金対所得比率、キャッシュフロー対収益比率、資産キャッシュ収益率、株主資本キャッシュ収益率、1株当たりキャッシュフローを含む重要なキャッシュフロー比率をマスターしましょう。投資分析のためのこれらの重要な財務指標の計算と解釈方法を学びます。",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2025-07-28",
+    "tags": ["cfa", "frm", "キャッシュフロー", "財務比率", "財務分析"]
+  },
+  {
+    "title": "金融アプリケーションの日付間の日数を計算する方法",
+    "slug": "how-to-calculate-days-between-dates-for-financial-applications",
+    "description": "Texas Instruments BAII Plus 電卓の日付モードを使用すると、日付間の日数を計算し、将来または過去の日付を決定し、実際（365日）と360日の計算方法を切り替えることができます。DT1、DT2、DBD、DAY 関数を効果的に使用する方法を学びましょう。",
+    "image": "/images/post_date_mode.jpg",
+    "datePublished": "2025-06-06",
+    "tags": ["date calculations", "days between dates", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "専用TVM計算機が登場！",
+    "slug": "dedicated-tvm-calculator-is-here",
+    "description": "この専用の時間価値（TVM）計算機は、シンプルさを追求して設計されました。PV、FV、PMT、N、または利息を簡単に計算し、新しいタイムラインと支払いスケジュール機能でキャッシュフローを視覚化します。",
+    "image": "/images/post_tvm_calculator.jpg",
+    "datePublished": "2025-04-23",
+    "tags": ["tvm", "金融電卓", "時間価値", "新機能", "お知らせ", "金融ツール"]
+  },
+  {
+    "title": "金融電卓で自動車ローンを計算する方法",
+    "slug": "how-to-calculate-car-loan-using-financial-calculator",
+    "description": "貨幣の時間価値（TVM）機能を使用して自動車ローンを計算し、月々の支払いを算出し、融資オプションを比較し、自動車購入に関する適切な判断を行う方法を学びます。",
+    "image": "/images/post_car_loan.jpg",
+    "datePublished": "2025-04-16",
+    "tags": ["tvm", "金融電卓", "自動車ローン", "自動車融資", "自動車ローン計算機"]
+  },
+  {
+    "title": "金融電卓で貨幣の時間価値（TVM）を計算する方法",
+    "slug": "how-to-calculate-time-value-of-money-with-financial-calculator",
+    "description": "貨幣の時間価値（TVM）は基本的な金融原則です。現在価値、将来価値、金利、期間数、支払いという5つの主要変数について、実践的な例とステップバイステップの説明を通じて学びます。",
+    "image": "/images/post_tvm.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["tvm", "金融電卓", "cfa", "frm"]
+  },
+  {
+    "title": "ICONVモードを使用して名目金利と実効金利を変換する方法",
+    "slug": "how-to-convert-between-nominal-effective-interest-rate-using-iconv-mode",
+    "description": "BAII Plus電卓の金利変換モードを使用して、名目金利（NOM）、実効金利（EFF）、年間複利回数（C/Y）の間で変換する方法を学びます。",
+    "image": "/images/post_iconv.jpg",
+    "datePublished": "2024-11-16",
+    "tags": ["iconv", "金融電卓", "cfa", "frm"]
+  },
+  {
+    "title": "BAII Plus電卓の償却モードの使用方法",
+    "slug": "how-to-use-amortization-mode",
+    "description": "BAII Plus電卓の償却モードを使用してローン計算を行う方法を学びます。簡単な手順で償却表、利息支払い、残高を計算します。",
+    "image": "/images/post_amortization.jpg",
+    "datePublished": "2024-11-24",
+    "tags": ["tvm", "金融電卓", "cfa", "frm"]
+  },
+  {
+    "title": "BAII Plus電卓の統計モードの使用方法",
+    "slug": "how-to-use-stats-mode-with-baii-plus-calculator",
+    "description": "BAII Plus電卓を使用して統計計算を行う方法を学びます。ステップバイステップの説明と実践的な例を通じて、データ入力、回帰分析、統計測定をマスターします。",
+    "image": "/images/post_stats.jpg",
+    "datePublished": "2025-01-10",
+    "tags": ["統計", "金融電卓", "cfa", "frm"]
+  },
+  {
+    "title": "BAII Plus金融電卓でキャッシュフロー計算をマスターする",
+    "slug": "mastering-cash-flow-calculations-with-baii-plus-financial-calculator",
+    "description": "BAII Plus電卓の強力なキャッシュフロー機能を学びます。投資判断のためにNPV、IRR、MIRRを計算します。",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["キャッシュフロー", "金融電卓", "cfa", "frm"]
+  },
+  {
+    "title": "金融電卓のCHAINとAOS計算方法の理解",
+    "slug": "understanding-chain-vs-aos-calculation-methods",
+    "description": "BAII Plus電卓のAOS（代数演算システム）とCHAIN計算方法の違いを学びます。このガイドでは、金融計算に適した計算方法の設定、使用、選択方法を説明します。",
+    "image": "/images/post_calculator_methods.jpg",
+    "datePublished": "2025-04-12",
+    "tags": ["計算方法", "金融電卓", "aos", "chain", "cfa", "frm"]
+  },
+  {
+    "title": "金融計算のためのAI説明機能の使用方法",
+    "slug": "how-to-use-ai-explanation-for-financial-calculations",
+    "description": "AI説明機能を使用して金融計算を詳細に理解する方法を学びます。このガイドでは、複利などの計算を説明する際にAIがどのように役立つかを示し、複雑な金融概念をより理解しやすくします。",
+    "image": "/images/post_ai_explanation.jpg",
+    "datePublished": "2025-02-25",
+    "tags": ["ai", "金融電卓", "cfa", "frm"]
+  },
+  {
+    "title": "製品アップデート",
+    "slug": "product-updates",
+    "description": "金融計算機の最新機能と改善について最新情報をお届けします。",
+    "image": "/images/product_updates.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["アップデート", "新機能", "お知らせ"]
+  }
+]

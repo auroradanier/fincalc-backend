@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Verwendung des Rechners zur schnellen Berechnung von Gewinnprozentsätzen und Aufschlägen",
+    "slug": "quick-tips-for-calculating-profit-percentages-and-markups-with-your-calculator",
+    "description": "Meistern Sie die Berechnung von Gewinnprozentsätzen durch einfache Tricks mit der Prozent (%) Taste des Finanzrechners. Lernen Sie, wie Sie mit Addition und Subtraktion schnell Aufschläge, Rabatte und Gewinnmargen berechnen.",
+    "image": "/images/post_percent_calculation.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["gewinnberechnung", "prozenttaste", "rechnertricks", "aufschlag", "rabatt", "finanzrechner"]
+  },
+  {
+    "title": "Cashflow-Kennzahlen für die Finanzanalyse verstehen",
+    "slug": "understanding-cash-flow-ratios-for-financial-analysis",
+    "description": "Meistern Sie wichtige Cashflow-Kennzahlen einschließlich FCFF, FCFE, Cash-to-Income-Ratio, Cash Flow to Revenue Ratio, Cash Return on Assets, Cash Return on Equity und Cash Flow per Share. Lernen Sie, wie Sie diese wichtigen Finanzkennzahlen für die Investitionsanalyse berechnen und interpretieren.",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2025-07-28",
+    "tags": ["cfa", "frm", "cashflow", "finanzkennzahlen", "finanzanalyse"]
+  },
+  {
+    "title": "Wie man Tage zwischen Daten für Finanzanwendungen berechnet",
+    "slug": "how-to-calculate-days-between-dates-for-financial-applications",
+    "description": "Der Datumsmodus des Texas Instruments BAII Plus Rechners ermöglicht es Ihnen, Tage zwischen Daten zu berechnen, zukünftige oder vergangene Daten zu bestimmen und zwischen den Berechnungsmethoden Actual (365-Tage) und 360-Tage zu wechseln. Erfahren Sie, wie Sie die Funktionen DT1, DT2, DBD und DAY effektiv nutzen.",
+    "image": "/images/post_date_mode.jpg",
+    "datePublished": "2025-06-06",
+    "tags": ["date calculations", "days between dates", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "Dedizierter TVM-Rechner ist da!",
+    "slug": "dedicated-tvm-calculator-is-here",
+    "description": "Dieser dedizierte Zeitwert des Geldes (TVM)-Rechner wurde für Einfachheit entwickelt. Berechnen Sie einfach PV, FV, PMT, N oder Zinsen und visualisieren Sie Cashflows mit unserer neuen Zeitachsen- und Zahlungsplanfunktion.",
+    "image": "/images/post_tvm_calculator.jpg",
+    "datePublished": "2025-04-23",
+    "tags": ["tvm", "finanzrechner", "zeitwert des geldes", "neue funktion", "ankündigung", "finanztools"]
+  },
+  {
+    "title": "Wie man einen Autokredit mit einem Finanzrechner berechnet",
+    "slug": "how-to-calculate-car-loan-using-financial-calculator",
+    "description": "Lernen Sie, wie Sie die Zeitwert des Geldes (TVM) Funktionen nutzen, um Autokredite zu berechnen, monatliche Zahlungen zu ermitteln, Finanzierungsoptionen zu vergleichen und fundierte Entscheidungen beim Autokauf zu treffen.",
+    "image": "/images/post_car_loan.jpg",
+    "datePublished": "2025-04-16",
+    "tags": ["tvm", "finanzrechner", "autokredit", "autofinanzierung", "autokreditrechner"]
+  },
+  {
+    "title": "Wie man den Zeitwert des Geldes (TVM) mit einem Finanzrechner berechnet",
+    "slug": "how-to-calculate-time-value-of-money-with-financial-calculator",
+    "description": "Der Zeitwert des Geldes (TVM) ist ein grundlegendes Finanzprinzip. Lernen Sie die fünf Schlüsselvariablen kennen: Barwert, Endwert, Zinssatz, Anzahl der Perioden und Zahlung, durch praktische Beispiele und Schritt-für-Schritt-Anleitungen.",
+    "image": "/images/post_tvm.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["tvm", "finanzrechner", "cfa", "frm"]
+  },
+  {
+    "title": "Umrechnung zwischen Nominal- und Effektivzinsen mit dem ICONV-Modus",
+    "slug": "how-to-convert-between-nominal-effective-interest-rate-using-iconv-mode",
+    "description": "Lernen Sie, wie Sie den Zinsumrechnungsmodus des BAII Plus Rechners nutzen, um zwischen Nominalzinsen (NOM), Effektivzinsen (EFF) und Zinsperioden pro Jahr (C/Y) umzurechnen.",
+    "image": "/images/post_iconv.jpg",
+    "datePublished": "2024-11-16",
+    "tags": ["iconv", "finanzrechner", "cfa", "frm"]
+  },
+  {
+    "title": "Verwendung des Tilgungsmodus mit dem BAII Plus Rechner",
+    "slug": "how-to-use-amortization-mode",
+    "description": "Lernen Sie, wie Sie den Tilgungsmodus des BAII Plus Rechners für Kreditberechnungen nutzen. Berechnen Sie Tilgungspläne, Zinszahlungen und Restbeträge mit einfachen Schritten.",
+    "image": "/images/post_amortization.jpg",
+    "datePublished": "2024-11-24",
+    "tags": ["tvm", "finanzrechner", "cfa", "frm"]
+  },
+  {
+    "title": "Verwendung des Statistikmodus mit dem BAII Plus Rechner",
+    "slug": "how-to-use-stats-mode-with-baii-plus-calculator",
+    "description": "Lernen Sie, wie Sie statistische Berechnungen mit dem BAII Plus Rechner durchführen. Beherrschen Sie die Dateneingabe, Regressionsanalyse und statistische Messungen mit Schritt-für-Schritt-Anleitungen und praktischen Beispielen.",
+    "image": "/images/post_stats.jpg",
+    "datePublished": "2025-01-10",
+    "tags": ["statistik", "finanzrechner", "cfa", "frm"]
+  },
+  {
+    "title": "Beherrschung der Cashflow-Berechnungen mit dem BAII Plus Finanzrechner",
+    "slug": "mastering-cash-flow-calculations-with-baii-plus-financial-calculator",
+    "description": "Lernen Sie die leistungsstarken Cashflow-Funktionen des BAII Plus Rechners kennen. Berechnen Sie NPV, IRR und MIRR für Ihre Investitionsentscheidungen.",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["cashflow", "finanzrechner", "cfa", "frm"]
+  },
+  {
+    "title": "Verständnis der CHAIN vs AOS Berechnungsmethoden auf dem Finanzrechner",
+    "slug": "understanding-chain-vs-aos-calculation-methods",
+    "description": "Lernen Sie die Unterschiede zwischen den AOS (Algebraisches Betriebssystem) und CHAIN Berechnungsmethoden auf dem BAII Plus Rechner kennen. Diese Anleitung behandelt, wie Sie die richtige Berechnungsmethode für Ihre Finanzberechnungen einrichten, verwenden und auswählen.",
+    "image": "/images/post_calculator_methods.jpg",
+    "datePublished": "2025-04-12",
+    "tags": ["berechnungsmethoden", "finanzrechner", "aos", "chain", "cfa", "frm"]
+  },
+  {
+    "title": "Wie man die KI-Erklärungsfunktion für Finanzberechnungen nutzt",
+    "slug": "how-to-use-ai-explanation-for-financial-calculations",
+    "description": "Lernen Sie, wie Sie die KI-Erklärungsfunktion nutzen, um Ihre Finanzberechnungen im Detail zu verstehen. Diese Anleitung zeigt, wie die KI bei der Erklärung von Berechnungen wie Zinseszins helfen kann, wodurch komplexe Finanzkonzepte leichter verständlich werden.",
+    "image": "/images/post_ai_explanation.jpg",
+    "datePublished": "2025-02-25",
+    "tags": ["ki", "finanzrechner", "cfa", "frm"]
+  },
+  {
+    "title": "Produkt-Updates",
+    "slug": "product-updates",
+    "description": "Bleiben Sie auf dem Laufenden über die neuesten Funktionen und Verbesserungen unseres Finanzrechners.",
+    "image": "/images/product_updates.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["Updates", "neue Funktion", "Ankündigung"]
+  }
+]

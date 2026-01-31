@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Cómo Calcular Porcentajes de Ganancia de Forma Rápida con la Calculadora",
+    "slug": "quick-tips-for-calculating-profit-percentages-and-markups-with-your-calculator",
+    "description": "Domina el cálculo de porcentajes de ganancia con trucos simples usando la tecla de porcentaje (%) de la calculadora financiera. Aprende a calcular rápidamente márgenes, descuentos y tasas de ganancia usando suma y resta.",
+    "image": "/images/post_percent_calculation.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["cálculo de ganancias", "tecla de porcentaje", "trucos de calculadora", "margen", "descuento", "calculadora financiera"]
+  },
+  {
+    "title": "Comprender las Ratios de Flujo de Efectivo para el Análisis Financiero",
+    "slug": "understanding-cash-flow-ratios-for-financial-analysis",
+    "description": "Aprende sobre las ratios esenciales de flujo de efectivo como FCFF, FCFE, Cash-to-Income y más. Guía completa con fórmulas, interpretaciones y ejemplos prácticos para el análisis financiero.",
+    "image": "/images/post_cashflowratio.jpg",
+    "datePublished": "2025-07-28",
+    "tags": ["flujo de efectivo", "ratios financieras", "análisis financiero", "FCFF", "FCFE", "calculadora"]
+  },
+  {
+    "title": "Cómo calcular los días entre fechas para aplicaciones financieras",
+    "slug": "how-to-calculate-days-between-dates-for-financial-applications",
+    "description": "El modo de fecha de la calculadora Texas Instruments BAII Plus le permite calcular los días entre fechas, determinar fechas futuras o pasadas y alternar entre los métodos de cálculo Actual (365 días) y 360 días. Aprenda a usar eficazmente las funciones DT1, DT2, DBD y DAY.",
+    "image": "/images/post_date_mode.jpg",
+    "datePublished": "2025-06-06",
+    "tags": ["date calculations", "days between dates", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "¡La Calculadora TVM Dedicada ya está aquí!",
+    "slug": "dedicated-tvm-calculator-is-here",
+    "description": "Esta calculadora dedicada del Valor del Dinero en el Tiempo (TVM) diseñada para la simplicidad. Calcule fácilmente PV, FV, PMT, N o Interés y visualice los flujos de efectivo con nuestra nueva línea de tiempo y funciones de tabla de pagos.",
+    "image": "/images/post_tvm_calculator.jpg",
+    "datePublished": "2025-04-23",
+    "tags": ["tvm", "calculadora financiera", "valor del dinero en el tiempo", "nueva característica", "anuncio", "herramientas financieras"]
+  },
+  {
+    "title": "Cómo Calcular un Préstamo de Auto Usando una Calculadora Financiera",
+    "slug": "how-to-calculate-car-loan-using-financial-calculator",
+    "description": "Aprende a usar las funciones de Valor Temporal del Dinero (TVM) para calcular préstamos de auto, calcular pagos mensuales, comparar opciones de financiamiento y tomar decisiones informadas sobre la compra de autos.",
+    "image": "/images/post_car_loan.jpg",
+    "datePublished": "2025-04-16",
+    "tags": ["tvm", "calculadora financiera", "préstamo de auto", "financiamiento de auto", "calculadora de préstamos de auto"]
+  },
+  {
+    "title": "Cómo Calcular el Valor Temporal del Dinero (TVM) con una Calculadora Financiera",
+    "slug": "how-to-calculate-time-value-of-money-with-financial-calculator",
+    "description": "El Valor Temporal del Dinero (TVM) es un principio financiero fundamental. Aprende sobre las cinco variables clave: Valor Presente, Valor Futuro, Tasa de Interés, Número de Períodos y Pago, a través de ejemplos prácticos e instrucciones paso a paso.",
+    "image": "/images/post_tvm.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["tvm", "calculadora financiera", "cfa", "frm"]
+  },
+  {
+    "title": "Conversión entre Tasas de Interés Nominales y Efectivas Usando el Modo ICONV",
+    "slug": "how-to-convert-between-nominal-effective-interest-rate-using-iconv-mode",
+    "description": "Aprende a usar el modo de conversión de tasas de interés de la calculadora BAII Plus para convertir entre tasas nominales (NOM), tasas efectivas (EFF) y períodos de capitalización por año (C/Y).",
+    "image": "/images/post_iconv.jpg",
+    "datePublished": "2024-11-16",
+    "tags": ["iconv", "calculadora financiera", "cfa", "frm"]
+  },
+  {
+    "title": "Uso del Modo de Amortización con la Calculadora BAII Plus",
+    "slug": "how-to-use-amortization-mode",
+    "description": "Aprende a usar el modo de amortización de la calculadora BAII Plus para cálculos de préstamos. Calcula tablas de amortización, pagos de intereses y saldos restantes con pasos simples.",
+    "image": "/images/post_amortization.jpg",
+    "datePublished": "2024-11-24",
+    "tags": ["tvm", "calculadora financiera", "cfa", "frm"]
+  },
+  {
+    "title": "Uso del Modo Estadístico con la Calculadora BAII Plus",
+    "slug": "how-to-use-stats-mode-with-baii-plus-calculator",
+    "description": "Aprende a realizar cálculos estadísticos usando la calculadora BAII Plus. Domina la entrada de datos, análisis de regresión y medidas estadísticas con instrucciones paso a paso y ejemplos prácticos.",
+    "image": "/images/post_stats.jpg",
+    "datePublished": "2025-01-10",
+    "tags": ["estadística", "calculadora financiera", "cfa", "frm"]
+  },
+  {
+    "title": "Dominando los Cálculos de Flujo de Efectivo con la Calculadora Financiera BAII Plus",
+    "slug": "mastering-cash-flow-calculations-with-baii-plus-financial-calculator",
+    "description": "Aprende las potentes funciones de flujo de efectivo de la calculadora BAII Plus. Calcula VAN, TIR y TIRM para tus decisiones de inversión.",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["flujo de efectivo", "calculadora financiera", "cfa", "frm"]
+  },
+  {
+    "title": "Entendiendo los Métodos de Cálculo CHAIN vs AOS en la Calculadora Financiera",
+    "slug": "understanding-chain-vs-aos-calculation-methods",
+    "description": "Aprende las diferencias entre los métodos de cálculo AOS (Sistema Operativo Algebraico) y CHAIN en la calculadora BAII Plus. Esta guía cubre cómo configurar, usar y elegir el método de cálculo correcto para tus cálculos financieros.",
+    "image": "/images/post_calculator_methods.jpg",
+    "datePublished": "2025-04-12",
+    "tags": ["métodos de cálculo", "calculadora financiera", "aos", "chain", "cfa", "frm"]
+  },
+  {
+    "title": "Cómo Usar la Función de Explicación AI para Cálculos Financieros",
+    "slug": "how-to-use-ai-explanation-for-financial-calculations",
+    "description": "Aprende a usar la función de explicación AI para entender en detalle tus cálculos financieros. Esta guía demuestra cómo la AI puede ayudar a explicar cálculos como el interés compuesto, haciendo que los conceptos financieros complejos sean más fáciles de entender.",
+    "image": "/images/post_ai_explanation.jpg",
+    "datePublished": "2025-02-25",
+    "tags": ["ai", "calculadora financiera", "cfa", "frm"]
+  },
+  {
+    "title": "Actualizaciones del Producto",
+    "slug": "product-updates",
+    "description": "Manténgase al día con las últimas características y mejoras de nuestra calculadora financiera.",
+    "image": "/images/product_updates.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["actualizaciones", "nueva función", "anuncio"]
+  }
+]

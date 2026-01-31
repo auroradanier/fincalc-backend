@@ -14,8 +14,8 @@ const config: TableConfig = {
       },
       sortable: true
     },
-    {
-      key: "fileName",
+    { 
+      key: "filename", 
       title: "Preview",
       type: "image",
       format: (value: string, item: any) => {
@@ -30,7 +30,7 @@ const config: TableConfig = {
       }
     },
     { 
-      key: "fileName", 
+      key: "filename", 
       title: "Filename",
       format: (value: string) => {
         const maxLength = 30;
@@ -101,6 +101,17 @@ const config: TableConfig = {
       type: "text"
     },
     { 
+      key: "hash", 
+      title: "Hash",
+      type: "text",
+      format: (value: string) => {
+        if (value && value.length > 16) {
+          return value.substring(0, 16) + '...';
+        }
+        return value;
+      }
+    },
+    { 
       key: "createdAt", 
       title: "Created At",
       type: "date",
@@ -139,14 +150,14 @@ const config: TableConfig = {
     field: "createdAt",
     direction: "desc"
   },
-  searchableFields: ["fileName", "originalName", "description", "tags"],
+  searchableFields: ["filename", "originalName", "tags"],
   perPage: 20,
   
   // Detail View Configuration
   detailFields: [
     { key: "id", label: "ID", type: "number", readOnly: true },
     { 
-      key: "fileName", 
+      key: "filename", 
       label: "Asset Preview", 
       type: "image", 
       readOnly: true,
@@ -157,7 +168,7 @@ const config: TableConfig = {
       }
     },
     { 
-      key: "fileName", 
+      key: "filename", 
       label: "Full Size Preview", 
       type: "image", 
       readOnly: true,
@@ -170,7 +181,7 @@ const config: TableConfig = {
     { key: "createdAt", label: "Created At", type: "datetime", readOnly: true },
     { key: "updatedAt", label: "Updated At", type: "datetime", readOnly: true },
     { key: "userId", label: "User", type: "relation", relation: { table: "user", displayField: "email", valueField: "id" }, editComponent: "select", readOnly: true },
-    { key: "fileName", label: "Filename", type: "text", readOnly: true },
+    { key: "filename", label: "Filename", type: "text", readOnly: true },
     { key: "originalName", label: "Original Name", type: "text", readOnly: true },
     { key: "mimeType", label: "MIME Type", type: "text", readOnly: true },
     { key: "fileSize", label: "File Size (bytes)", type: "number", readOnly: true },

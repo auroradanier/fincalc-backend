@@ -1,0 +1,106 @@
+[
+  {
+    "title": "使用計算機快速計算利潤百分比和加價的技巧",
+    "slug": "quick-tips-for-calculating-profit-percentages-and-markups-with-your-calculator",
+    "description": "透過使用金融計算機百分比（%）鍵的簡單技巧掌握利潤百分比計算。學習如何使用加法和減法快速計算加價、折扣和利潤率。",
+    "image": "/images/post_percent_calculation.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["利潤計算", "百分比鍵", "計算機技巧", "加價", "折扣", "金融計算機"]
+  },
+  {
+    "title": "理解現金流比率在財務分析中的應用",
+    "slug": "understanding-cash-flow-ratios-for-financial-analysis",
+    "description": "掌握重要的現金流比率,包括FCFF、FCFE、現金收入比、現金流收入比、現金資產回報率、現金股本回報率和每股現金流。學習如何計算和解釋這些關鍵的財務指標以進行投資分析。",
+    "image": "/images/post_cashflowratio.jpg",
+    "datePublished": "2025-07-28",
+    "tags": ["cfa", "frm", "cashflow", "financial ratios", "financial analysis"]
+  },
+  {
+    "title": "如何計算財務應用中的日期間隔",
+    "slug": "how-to-calculate-days-between-dates-for-financial-applications",
+    "description": "德州儀器BAII Plus計算器的日期模式允許您計算日期間隔、確定未來或過去的日期,並在實際（365天）和360天計算方法之間切換。學習如何有效使用DT1、DT2、DBD和DAY功能。",
+    "image": "/images/post_date_mode.jpg",
+    "datePublished": "2025-06-06",
+    "tags": ["date calculations", "days between dates", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "專用TVM計算器已上線",
+    "slug": "dedicated-tvm-calculator-is-here",
+    "description": "這款專用的貨幣時間價值（TVM）計算器專為簡化設計。輕鬆計算PV、FV、PMT、N或利率,並使用我們新的時間軸和付款計劃功能視覺化現金流。",
+    "image": "/images/post_tvm_calculator.jpg",
+    "datePublished": "2025-04-23",
+    "tags": ["tvm", "financial calculator", "time value of money", "new feature", "announcement", "finance tools"]
+  },
+  {
+    "title": "如何使用財務計算器計算汽車貸款",
+    "slug": "how-to-calculate-car-loan-using-financial-calculator",
+    "description": "學習使用貨幣時間價值（TVM）功能計算汽車貸款、計算月付款、比較融資選項,並使用汽車貸款計算器做出明智的汽車購買決策。",
+    "image": "/images/post_car_loan.jpg",
+    "datePublished": "2025-04-16",
+    "tags": ["tvm", "financial calculator", "car loan", "auto financing", "car loan calculator"]
+  },
+  {
+    "title": "如何使用財務計算器計算貨幣時間價值（TVM）",
+    "slug": "how-to-calculate-time-value-of-money-with-financial-calculator",
+    "description": "貨幣時間價值（TVM）是基本的財務原理。通過實際例子和逐步說明學習五個關鍵變量——現值、未來值、利率、期數和付款。",
+    "image": "/images/post_tvm.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["tvm", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "使用ICONV模式在名義利率和有效利率之間轉換",
+    "slug": "how-to-convert-between-nominal-effective-interest-rate-using-iconv-mode",
+    "description": "學習如何使用德州儀器BAII Plus計算器的利率轉換模式在名義利率（NOM）、有效利率（EFF）和每年複利期數（C/Y）之間轉換。",
+    "image": "/images/post_iconv.jpg",
+    "datePublished": "2024-11-16",
+    "tags": ["iconv", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "使用BAII Plus計算器的攤銷模式",
+    "slug": "how-to-use-amortization-mode",
+    "description": "學習如何使用德州儀器BAII Plus計算器的攤銷模式進行貸款計算。通過簡單步驟計算攤銷計劃、利息支付和剩餘餘額。",
+    "image": "/images/post_amortization.jpg",
+    "datePublished": "2024-11-24",
+    "tags": ["tvm", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "使用BAII Plus計算器的統計模式",
+    "slug": "how-to-use-stats-mode-with-baii-plus-calculator",
+    "description": "學習如何使用德州儀器BAII Plus計算器進行統計計算。通過逐步說明和實際例子掌握數據輸入、回歸分析和統計測量。",
+    "image": "/images/post_stats.jpg",
+    "datePublished": "2025-01-10",
+    "tags": ["statistics", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "掌握BAII Plus財務計算器的現金流計算",
+    "slug": "mastering-cash-flow-calculations-with-baii-plus-financial-calculator",
+    "description": "學習德州儀器BAII Plus計算器強大的現金流功能。為您的投資決策計算NPV、IRR和MIRR。",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["cash flow", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "理解財務計算器上的CHAIN與AOS計算方法",
+    "slug": "understanding-chain-vs-aos-calculation-methods",
+    "description": "學習德州儀器BAII Plus計算器上AOS（代數運算系統）和CHAIN計算方法的區別。本指南涵蓋如何設置、使用和為您的財務計算選擇正確的計算方法。",
+    "image": "/images/post_calculator_methods.jpg",
+    "datePublished": "2025-04-12",
+    "tags": ["calculator methods", "financial calculator", "aos", "chain", "cfa", "frm"]
+  },
+  {
+    "title": "如何使用AI解釋功能進行財務計算",
+    "slug": "how-to-use-ai-explanation-for-financial-calculations",
+    "description": "學習如何使用AI解釋功能詳細了解您的財務計算。本指南演示AI如何幫助解釋複利等計算,使複雜的財務概念更容易理解。",
+    "image": "/images/post_ai_explanation.jpg",
+    "datePublished": "2025-02-25",
+    "tags": ["ai", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "產品更新",
+    "slug": "product-updates",
+    "description": "了解我們財務計算器的最新功能和改進。",
+    "image": "/images/product_updates.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["updates", "new feature", "announcement"]
+  }
+]

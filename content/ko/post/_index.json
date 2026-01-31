@@ -1,0 +1,106 @@
+[
+  {
+    "title": "계산기로 수익률과 마크업을 빠르게 계산하는 방법",
+    "slug": "quick-tips-for-calculating-profit-percentages-and-markups-with-your-calculator",
+    "description": "금융 계산기의 퍼센트(%) 키를 사용한 간단한 요령으로 수익률 계산을 마스터하세요. 덧셈과 뺄셈을 사용하여 마크업, 할인, 수익률을 빠르게 계산하는 방법을 배우세요.",
+    "image": "/images/post_percent_calculation.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["수익 계산", "퍼센트 키", "계산기 요령", "마크업", "할인", "금융 계산기"]
+  },
+  {
+    "title": "재무 분석을 위한 현금 흐름 비율 이해",
+    "slug": "understanding-cash-flow-ratios-for-financial-analysis",
+    "description": "FCFF, FCFE, 현금 대 소득 비율, 현금 흐름 대 수익 비율, 자산 현금 수익률, 자기자본 현금 수익률, 주당 현금 흐름을 포함한 중요한 현금 흐름 비율을 마스터하세요. 투자 분석을 위한 이러한 핵심 재무 지표를 계산하고 해석하는 방법을 배우세요.",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2025-07-28",
+    "tags": ["cfa", "frm", "현금흐름", "재무비율", "재무분석"]
+  },
+  {
+    "title": "금융 애플리케이션 날짜 간 일수 계산 방법",
+    "slug": "how-to-calculate-days-between-dates-for-financial-applications",
+    "description": "Texas Instruments BAII Plus 계산기의 날짜 모드를 사용하면 날짜 간 일수를 계산하고, 미래 또는 과거 날짜를 결정하며, 실제 (365일) 및 360일 계산 방법 간에 전환할 수 있습니다. DT1, DT2, DBD, DAY 함수를 효과적으로 사용하는 방법을 알아보십시오.",
+    "image": "/images/post_date_mode.jpg",
+    "datePublished": "2025-06-06",
+    "tags": ["date calculations", "days between dates", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "전용 TVM 계산기 출시!",
+    "slug": "dedicated-tvm-calculator-is-here",
+    "description": "이 전용 화폐의 시간 가치(TVM) 계산기는 단순성을 위해 설계되었습니다. PV, FV, PMT, N 또는 이자를 쉽게 계산하고 새로운 타임라인 및 지불 일정 기능으로 현금 흐름을 시각화하십시오.",
+    "image": "/images/post_tvm_calculator.jpg",
+    "datePublished": "2025-04-23",
+    "tags": ["tvm", "재무 계산기", "화폐의 시간 가치", "새로운 기능", "공지", "금융 도구"]
+  },
+  {
+    "title": "금융 계산기로 자동차 대출 계산하는 방법",
+    "slug": "how-to-calculate-car-loan-using-financial-calculator",
+    "description": "화폐의 시간가치(TVM) 기능을 사용하여 자동차 대출을 계산하고, 월 상환액을 산출하며, 금융 옵션을 비교하고, 자동차 구매에 대한 합리적인 결정을 내리는 방법을 배웁니다.",
+    "image": "/images/post_car_loan.jpg",
+    "datePublished": "2025-04-16",
+    "tags": ["tvm", "금융 계산기", "자동차 대출", "자동차 금융", "자동차 대출 계산기"]
+  },
+  {
+    "title": "금융 계산기로 화폐의 시간가치(TVM) 계산하는 방법",
+    "slug": "how-to-calculate-time-value-of-money-with-financial-calculator",
+    "description": "화폐의 시간가치(TVM)는 기본적인 금융 원칙입니다. 현재가치, 미래가치, 이자율, 기간 수, 지불액이라는 5가지 주요 변수에 대해 실용적인 예제와 단계별 설명을 통해 배웁니다.",
+    "image": "/images/post_tvm.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["tvm", "금융 계산기", "cfa", "frm"]
+  },
+  {
+    "title": "ICONV 모드를 사용하여 명목 이자율과 실효 이자율 변환하는 방법",
+    "slug": "how-to-convert-between-nominal-effective-interest-rate-using-iconv-mode",
+    "description": "BAII Plus 계산기의 이자율 변환 모드를 사용하여 명목 이자율(NOM), 실효 이자율(EFF), 연간 복리 횟수(C/Y) 사이를 변환하는 방법을 배웁니다.",
+    "image": "/images/post_iconv.jpg",
+    "datePublished": "2024-11-16",
+    "tags": ["iconv", "금융 계산기", "cfa", "frm"]
+  },
+  {
+    "title": "BAII Plus 계산기의 상환 모드 사용 방법",
+    "slug": "how-to-use-amortization-mode",
+    "description": "BAII Plus 계산기의 상환 모드를 사용하여 대출 계산을 수행하는 방법을 배웁니다. 간단한 단계로 상환표, 이자 지불액, 잔액을 계산합니다.",
+    "image": "/images/post_amortization.jpg",
+    "datePublished": "2024-11-24",
+    "tags": ["tvm", "금융 계산기", "cfa", "frm"]
+  },
+  {
+    "title": "BAII Plus 계산기의 통계 모드 사용 방법",
+    "slug": "how-to-use-stats-mode-with-baii-plus-calculator",
+    "description": "BAII Plus 계산기를 사용하여 통계 계산을 수행하는 방법을 배웁니다. 단계별 설명과 실용적인 예제를 통해 데이터 입력, 회귀 분석, 통계 측정을 마스터합니다.",
+    "image": "/images/post_stats.jpg",
+    "datePublished": "2025-01-10",
+    "tags": ["통계", "금융 계산기", "cfa", "frm"]
+  },
+  {
+    "title": "BAII Plus 금융 계산기로 현금흐름 계산 마스터하기",
+    "slug": "mastering-cash-flow-calculations-with-baii-plus-financial-calculator",
+    "description": "BAII Plus 계산기의 강력한 현금흐름 기능을 배웁니다. 투자 결정을 위해 NPV, IRR, MIRR을 계산합니다.",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["현금흐름", "금융 계산기", "cfa", "frm"]
+  },
+  {
+    "title": "금융 계산기의 CHAIN과 AOS 계산 방법 이해",
+    "slug": "understanding-chain-vs-aos-calculation-methods",
+    "description": "BAII Plus 계산기의 AOS(대수 연산 시스템)와 CHAIN 계산 방법의 차이를 배웁니다. 이 가이드에서는 금융 계산에 적합한 계산 방법의 설정, 사용, 선택 방법을 설명합니다.",
+    "image": "/images/post_calculator_methods.jpg",
+    "datePublished": "2025-04-12",
+    "tags": ["계산 방법", "금융 계산기", "aos", "chain", "cfa", "frm"]
+  },
+  {
+    "title": "금융 계산을 위한 AI 설명 기능 사용 방법",
+    "slug": "how-to-use-ai-explanation-for-financial-calculations",
+    "description": "AI 설명 기능을 사용하여 금융 계산을 상세히 이해하는 방법을 배웁니다. 이 가이드에서는 복리 등의 계산을 설명할 때 AI가 어떻게 도움이 되는지를 보여주며, 복잡한 금융 개념을 더 이해하기 쉽게 만듭니다.",
+    "image": "/images/post_ai_explanation.jpg",
+    "datePublished": "2025-02-25",
+    "tags": ["ai", "금융 계산기", "cfa", "frm"]
+  },
+  {
+    "title": "제품 업데이트",
+    "slug": "product-updates",
+    "description": "금융 계산기의 최신 기능과 개선 사항에 대한 최신 정보를 확인하세요.",
+    "image": "/images/product_updates.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["업데이트", "새로운 기능", "공지사항"]
+  }
+]

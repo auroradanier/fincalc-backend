@@ -42,11 +42,16 @@ const config: TableConfig = {
       }
     },
     {
-      key: "createdAt",
-      title: "Created At",
-      type: "date",
-      format: (value: any) => value ? new Date(value).toLocaleString() : 'N/A',
-      sortable: true
+      key: "content",
+      title: "Content",
+      type: "text",
+      format: (value: string) => {
+        const maxLength = 100;
+        if (value && value.length > maxLength) {
+          return value.substring(0, maxLength) + '...';
+        }
+        return value;
+      }
     }
   ],
   filters: [
@@ -70,7 +75,7 @@ const config: TableConfig = {
     field: "id",
     direction: "asc"
   },
-  searchableFields: ["title", "description"],
+  searchableFields: ["title", "description", "content"],
   perPage: 20,
 
   detailFields: [
@@ -79,7 +84,7 @@ const config: TableConfig = {
     { key: "locale", label: "Locale", type: "text" },
     { key: "title", label: "Title", type: "text" },
     { key: "description", label: "Description", type: "textarea", rows: 3 },
-    { key: "content", label: "Content", type: "textarea", rows: 10 },
+    { key: "content", label: "Content (Markdown)", type: "textarea", rows: 15 },
     { key: "metadata", label: "Metadata (JSON)", type: "textarea", rows: 5 }
   ]
 }

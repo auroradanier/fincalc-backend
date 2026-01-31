@@ -45,6 +45,33 @@ const config: TableConfig = {
       type: "text"
     },
     {
+      key: "categorySlug",
+      title: "Category",
+      type: "text"
+    },
+    {
+      key: "titles",
+      title: "Titles",
+      type: "text",
+      format: (value: any) => {
+        if (!value) return 'N/A';
+        const obj = typeof value === 'string' ? JSON.parse(value) : value;
+        return Object.entries(obj).map(([k, v]) => `${k}: ${v}`).join(', ');
+      }
+    },
+    {
+      key: "descriptions",
+      title: "Descriptions",
+      type: "text",
+      format: (value: any) => {
+        if (!value) return 'N/A';
+        const obj = typeof value === 'string' ? JSON.parse(value) : value;
+        const firstValue = Object.values(obj)[0];
+        if (!firstValue || typeof firstValue !== 'string') return 'N/A';
+        return firstValue.substring(0, 50) + '...';
+      }
+    },
+    {
       key: "allowComments",
       title: "Comments",
       type: "boolean"
@@ -139,12 +166,14 @@ const config: TableConfig = {
     field: "createdAt",
     direction: "desc"
   },
-  searchableFields: ["slug", "userName"],
+  searchableFields: ["slug", "userName", "titles", "descriptions"],
   perPage: 20,
 
   detailFields: [
     { key: "id", label: "ID", type: "text", readOnly: true },
-    { key: "slug", label: "Slug", type: "text" },
+    { key: "titles", label: "Titles (JSONB - Multilingual)", type: "textarea", rows: 5 },
+    { key: "descriptions", label: "Descriptions (JSONB - Multilingual)", type: "textarea", rows: 8 },
+    { key: "slug", label: "Slug", type: "text", editOnly: true, description: "Auto-generated from English title on create, editable after create" },
     { key: "userId", label: "Author", type: "relation", relation: { table: "user", displayField: "email", valueField: "id" }, editComponent: "select", readOnly: true },
     { key: "userName", label: "Author Name", type: "text", readOnly: true },
     { key: "status", label: "Status", type: "text", editComponent: "select", options: [
@@ -160,6 +189,7 @@ const config: TableConfig = {
     { key: "commentCount", label: "Comment Count", type: "number", readOnly: true },
     { key: "viewCount", label: "View Count", type: "number", readOnly: true },
     { key: "primaryLocale", label: "Primary Locale", type: "text" },
+    { key: "categorySlug", label: "Category Slug", type: "text" },
     { key: "metadata", label: "Metadata (JSON)", type: "textarea", rows: 5 },
     { key: "createdAt", label: "Created At", type: "datetime", readOnly: true },
     { key: "updatedAt", label: "Updated At", type: "datetime", readOnly: true }

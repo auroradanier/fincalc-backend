@@ -1,0 +1,106 @@
+[
+  {
+    "title": "使用计算器快速计算利润百分比和加价的技巧",
+    "slug": "quick-tips-for-calculating-profit-percentages-and-markups-with-your-calculator",
+    "description": "通过使用金融计算器百分比（%）键的简单技巧掌握利润百分比计算。学习如何使用加法和减法快速计算加价、折扣和利润率。",
+    "image": "/images/post_percent_calculation.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["利润计算", "百分比键", "计算器技巧", "加价", "折扣", "金融计算器"]
+  },
+  {
+    "title": "理解现金流比率在财务分析中的应用",
+    "slug": "understanding-cash-flow-ratios-for-financial-analysis",
+    "description": "掌握重要的现金流比率,包括FCFF、FCFE、现金收入比、现金流收入比、资产现金回报率、股权现金回报率和每股现金流。学习如何计算和解释这些关键财务指标用于投资分析。",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2025-07-28",
+    "tags": ["cfa", "frm", "现金流", "财务比率", "财务分析"]
+  },
+  {
+    "title": "如何计算金融应用中的日期天数",
+    "slug": "how-to-calculate-days-between-dates-for-financial-applications",
+    "description": "Texas Instruments BAII Plus 计算器的日期模式允许您计算日期之间的天数,确定未来或过去的日期,以及在实际（365天）和360天计算方法之间切换。了解如何有效使用 DT1、DT2、DBD 和 DAY 功能。",
+    "image": "/images/post_date_mode.jpg",
+    "datePublished": "2025-06-06",
+    "tags": ["date calculations", "days between dates", "financial calculator", "cfa", "frm"]
+  },
+  {
+    "title": "专用TVM计算器来了！",
+    "slug": "dedicated-tvm-calculator-is-here",
+    "description": "这款专用的货币时间价值（TVM）计算器专为简化操作而设计。轻松计算 PV、FV、PMT、N 或利息,并通过我们新的时间线和付款计划功能将现金流可视化。",
+    "image": "/images/post_tvm_calculator.jpg",
+    "datePublished": "2025-04-23",
+    "tags": ["tvm", "金融计算器", "货币时间价值", "新功能", "公告", "金融工具"]
+  },
+  {
+    "title": "如何使用金融计算器计算汽车贷款",
+    "slug": "how-to-calculate-car-loan-using-financial-calculator",
+    "description": "学习使用货币时间价值(TVM)功能计算汽车贷款、计算月供、比较融资选项,并做出明智的汽车购买决策。",
+    "image": "/images/post_car_loan.jpg",
+    "datePublished": "2025-04-16",
+    "tags": ["tvm", "金融计算器", "汽车贷款", "汽车融资", "汽车贷款计算器"]
+  },
+  {
+    "title": "如何使用金融计算器计算货币时间价值(TVM)",
+    "slug": "how-to-calculate-time-value-of-money-with-financial-calculator",
+    "description": "货币时间价值(TVM)是基本的金融原则。通过实际示例和分步说明,了解五个关键变量：现值、终值、利率、期数和付款。",
+    "image": "/images/post_tvm.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["tvm", "金融计算器", "cfa", "frm"]
+  },
+  {
+    "title": "使用ICONV模式在名义利率和实际利率之间转换",
+    "slug": "how-to-convert-between-nominal-effective-interest-rate-using-iconv-mode",
+    "description": "学习如何使用BAII Plus计算器的利率转换模式在名义利率(NOM)、实际利率(EFF)和每年复利期数(C/Y)之间进行转换。",
+    "image": "/images/post_iconv.jpg",
+    "datePublished": "2024-11-16",
+    "tags": ["iconv", "金融计算器", "cfa", "frm"]
+  },
+  {
+    "title": "使用BAII Plus计算器的摊销模式",
+    "slug": "how-to-use-amortization-mode",
+    "description": "学习如何使用BAII Plus计算器的摊销模式进行贷款计算。通过简单步骤计算摊销表、利息支付和剩余余额。",
+    "image": "/images/post_amortization.jpg",
+    "datePublished": "2024-11-24",
+    "tags": ["tvm", "金融计算器", "cfa", "frm"]
+  },
+  {
+    "title": "使用BAII Plus计算器的统计模式",
+    "slug": "how-to-use-stats-mode-with-baii-plus-calculator",
+    "description": "学习如何使用BAII Plus计算器进行统计计算。通过分步说明和实际示例掌握数据输入、回归分析和统计测量。",
+    "image": "/images/post_stats.jpg",
+    "datePublished": "2025-01-10",
+    "tags": ["统计", "金融计算器", "cfa", "frm"]
+  },
+  {
+    "title": "使用BAII Plus金融计算器掌握现金流计算",
+    "slug": "mastering-cash-flow-calculations-with-baii-plus-financial-calculator",
+    "description": "学习BAII Plus计算器强大的现金流功能。为您的投资决策计算NPV、IRR和MIRR。",
+    "image": "/images/post_cashflow.jpg",
+    "datePublished": "2024-10-25",
+    "tags": ["现金流", "金融计算器", "cfa", "frm"]
+  },
+  {
+    "title": "理解金融计算器上的CHAIN与AOS计算方法",
+    "slug": "understanding-chain-vs-aos-calculation-methods",
+    "description": "学习BAII Plus计算器上AOS(代数操作系统)和CHAIN计算方法的区别。本指南涵盖如何设置、使用和为您的金融计算选择正确的计算方法。",
+    "image": "/images/post_calculator_methods.jpg",
+    "datePublished": "2025-04-12",
+    "tags": ["计算方法", "金融计算器", "aos", "chain", "cfa", "frm"]
+  },
+  {
+    "title": "如何使用AI解释功能进行金融计算",
+    "slug": "how-to-use-ai-explanation-for-financial-calculations",
+    "description": "学习如何使用AI解释功能详细了解您的金融计算。本指南演示AI如何帮助解释复利等计算,使复杂的金融概念更容易理解。",
+    "image": "/images/post_ai_explanation.jpg",
+    "datePublished": "2025-02-25",
+    "tags": ["ai", "金融计算器", "cfa", "frm"]
+  },
+  {
+    "title": "产品更新",
+    "slug": "product-updates",
+    "description": "了解我们财务计算器的最新功能和改进。",
+    "image": "/images/product_updates.jpg",
+    "datePublished": "2025-08-28",
+    "tags": ["更新", "新功能", "公告"]
+  }
+]

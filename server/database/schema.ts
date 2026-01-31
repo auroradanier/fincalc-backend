@@ -1,9 +1,9 @@
-import { pgTable, text, integer, boolean, timestamp, serial, index, uniqueIndex } from 'drizzle-orm/pg-core'
+import { pgTable, text, integer, boolean, timestamp, serial, index, uniqueIndex, jsonb } from 'drizzle-orm/pg-core'
 
 export const user = pgTable('user', {
   id: text('id').primaryKey(),
   name: text('name').notNull(),
-  email: text('email').notNull().unique(),
+  email: text('email').unique(),
   emailVerified: boolean('emailVerified').default(false),
   image: text('image'),
   createdAt: timestamp('createdAt').notNull().defaultNow(),
@@ -12,7 +12,11 @@ export const user = pgTable('user', {
   banned: boolean('banned').default(false),
   banReason: text('banReason'),
   banExpires: timestamp('banExpires'),
-})
+  lang: text('lang').default('en'),
+  currentPlanId: integer('current_plan_id').default(0), // Reference to pricingPlans (free, one-time, or subscription)
+}, (table) => [
+  index('user_current_plan_idx').on(table.currentPlanId),
+])
 
 export const session = pgTable('session', {
   id: text('id').primaryKey(),
@@ -76,6 +80,10 @@ export const articles = pgTable('articles', {
   id: text('id').primaryKey(),
   slug: text('slug').notNull(), // Base slug (language-agnostic)
 
+  // Multilingual titles and descriptions
+  titles: jsonb('titles'), // JSONB: { "en": "Title", "zh": "标题", "de": "Titel", ... }
+  descriptions: jsonb('descriptions'), // JSONB: { "en": "Description", "zh": "描述", "de": "Beschreibung", ... }
+
   // Author and ownership
   userId: text('user_id').notNull(),
   userName: text('user_name').notNull(),
@@ -85,6 +93,7 @@ export const articles = pgTable('articles', {
 
   // Categorization
   categorySlug: text('category_slug'), // References slug in articleCategories
+  
   // Content features
   allowComments: boolean('allow_comments').default(true),
   isFeatured: boolean('is_featured').default(false),
@@ -119,8 +128,8 @@ export const articleContent = pgTable('article_content', {
   id: text('id').primaryKey(),
   articleId: text('article_id').notNull(),
   locale: text('locale').notNull(), // en, de, es, fr, ja, ko, zh, zh-Hant
-  title: text('title').notNull(),
-  description: text('description'), // Brief summary/excerpt
+  title: text('title'), // Localized title
+  description: text('description'), // Localized description
   content: text('content').notNull(), // Markdown content
   metadata: text('metadata'), // JSON for all metadata: SEO, Schema.org, og tags, etc.
 }, (table) => [

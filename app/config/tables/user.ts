@@ -62,10 +62,32 @@ const config: TableConfig = {
       sortable: true
     },
     {
+      key: "lang",
+      title: "Language",
+      type: "text"
+    },
+    {
+      key: "currentPlanId",
+      title: "Current Plan ID",
+      type: "number",
+      sortable: true
+    },
+    {
       key: "banned",
       title: "Banned",
       type: "boolean",
       sortable: true
+    },
+    {
+      key: "banReason",
+      title: "Ban Reason",
+      type: "text"
+    },
+    {
+      key: "banExpires",
+      title: "Ban Expires",
+      type: "date",
+      format: (value: any) => value ? new Date(value).toLocaleString() : 'N/A'
     }
   ],
   filters: [
@@ -117,11 +139,13 @@ const config: TableConfig = {
       if (!value) return null;
       return value;
     } },
-    { key: "role", label: "Role", type: "text", inlineEdit: true, editComponent: "multiselect", options: [
+    { key: "role", label: "Role", type: "text", inlineEdit: true, editComponent: "multiselect",       options: [
         { value: "user", label: "User" },
         { value: "admin", label: "Admin" }
       ]
     },
+    { key: "lang", label: "Language", type: "text" },
+    { key: "currentPlanId", label: "Current Plan ID", type: "number" },
     { key: "banned", label: "Banned", type: "boolean" },
     { key: "banReason", label: "Ban Reason", type: "text" },
     { key: "banExpires", label: "Ban Expires", type: "datetime" },
