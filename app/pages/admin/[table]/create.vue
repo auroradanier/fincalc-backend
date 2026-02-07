@@ -351,7 +351,7 @@ const handleImageUpload = async (event: Event, fieldKey: string) => {
   try {
     const formData = new FormData();
     formData.append('files', file);
-    const { getImageBasePath } = await import('~~/shared/utils/imageTools');
+    const { getImageBasePath } = await import('~~/shared/utils/imageTools.ts');
 
     // Get upload target from field configuration
     const field = tableConfig.value?.detailFields?.find(f => f.key === fieldKey);
